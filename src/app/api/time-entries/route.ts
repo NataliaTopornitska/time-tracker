@@ -55,6 +55,7 @@ export async function POST(request: Request) {
     projectId: String(projectId),
     taskNameId: String(taskNameId),
     description: typeof description === "string" ? description : undefined,
+    startedAt: new Date(),
   });
   return NextResponse.json(entry, { status: 201 });
 }
