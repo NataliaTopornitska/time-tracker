@@ -1,6 +1,6 @@
 # Time Tracker
 
-[![Deploy with Vercel](https://vercel.com/button)](https://time-tracker-three-phi.vercel.app)
+[Live Demo](https://time-tracker-three-phi.vercel.app)
 
 Next.js 15 Time Tracker with **TypeScript**, **TailwindCSS**, **SQLite**, and **Prisma ORM**. Clean architecture: domain, application use-cases, infrastructure (Prisma repositories), and presentation components.
 
@@ -220,4 +220,5 @@ Constraints:
 - No business logic inside components
 - Use clean architecture
 - Use TypeScript and TailwindCSS
+
 
